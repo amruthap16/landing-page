@@ -126,12 +126,12 @@ nav ul a:hover:after{
     font-size: 14px;
     font-weight: 500;
 }
-.social-links{
+.links{
     position: absolute;
     right: 5%;
     bottom: 5%;
 }
-.social-links::before{
+.links::before{
     content: "";
     width: 80%;
     height: 3px;
@@ -140,7 +140,7 @@ nav ul a:hover:after{
     left: -150px;
     background-color: #494234;
 }
-.social-links i{
+.links i{
     margin-left: 10px;
     width: 35px;
     height: 35px;
@@ -151,6 +151,6 @@ nav ul a:hover:after{
     justify-content: center;
     transition: 0.5s;
 }
-.social-links i:hover{
+.links i:hover{
     transform: translateY(-5px);
 }
